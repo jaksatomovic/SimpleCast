@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		115516DEFE5B89394585AAB7 /* Pods_SimpleCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A27A6B28FF88A6CE05B520 /* Pods_SimpleCast.framework */; };
+		60038E021FB329D6002A0E61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60038E011FB329D6002A0E61 /* AppDelegate.swift */; };
+		60038E041FB329D6002A0E61 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60038E031FB329D6002A0E61 /* MainController.swift */; };
+		60038E091FB329D6002A0E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60038E081FB329D6002A0E61 /* Assets.xcassets */; };
+		60038E0C1FB329D6002A0E61 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60038E0A1FB329D6002A0E61 /* Splash.storyboard */; };
+		60038E191FB32AB2002A0E61 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60038E181FB32AB2002A0E61 /* UIView+Anchors.swift */; };
+		607513771FB3311C002A5516 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607513761FB3311C002A5516 /* Forecast.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55A27A6B28FF88A6CE05B520 /* Pods_SimpleCast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleCast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60038DFE1FB329D6002A0E61 /* SimpleCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60038E011FB329D6002A0E61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60038E031FB329D6002A0E61 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		60038E081FB329D6002A0E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60038E0B1FB329D6002A0E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Splash.storyboard; sourceTree = "<group>"; };
+		60038E0D1FB329D6002A0E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60038E181FB32AB2002A0E61 /* UIView+Anchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
+		607513761FB3311C002A5516 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		76FF93AD8BD99D605DF7CBF8 /* Pods-SimpleCast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCast.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleCast/Pods-SimpleCast.release.xcconfig"; sourceTree = "<group>"; };
+		84C9C1549E2E09C189D91BB8 /* Pods-SimpleCast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleCast/Pods-SimpleCast.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60038DFB1FB329D6002A0E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115516DEFE5B89394585AAB7 /* Pods_SimpleCast.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A20C839DC0C19E52ED9F724 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84C9C1549E2E09C189D91BB8 /* Pods-SimpleCast.debug.xcconfig */,
+				76FF93AD8BD99D605DF7CBF8 /* Pods-SimpleCast.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		60038DF51FB329D6002A0E61 = {
+			isa = PBXGroup;
+			children = (
+				60038E001FB329D6002A0E61 /* SimpleCast */,
+				60038DFF1FB329D6002A0E61 /* Products */,
+				1A20C839DC0C19E52ED9F724 /* Pods */,
+				614615BEC2B540E17968FE7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		60038DFF1FB329D6002A0E61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60038DFE1FB329D6002A0E61 /* SimpleCast.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60038E001FB329D6002A0E61 /* SimpleCast */ = {
+			isa = PBXGroup;
+			children = (
+				60038E011FB329D6002A0E61 /* AppDelegate.swift */,
+				60038E081FB329D6002A0E61 /* Assets.xcassets */,
+				60038E141FB32A63002A0E61 /* Model */,
+				60038E131FB32A51002A0E61 /* Controller */,
+				60038E161FB32A6E002A0E61 /* Helpers */,
+				60038E0A1FB329D6002A0E61 /* Splash.storyboard */,
+				60038E0D1FB329D6002A0E61 /* Info.plist */,
+			);
+			path = SimpleCast;
+			sourceTree = "<group>";
+		};
+		60038E131FB32A51002A0E61 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				60038E031FB329D6002A0E61 /* MainController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		60038E141FB32A63002A0E61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				607513761FB3311C002A5516 /* Forecast.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		60038E161FB32A6E002A0E61 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				60038E181FB32AB2002A0E61 /* UIView+Anchors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		614615BEC2B540E17968FE7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55A27A6B28FF88A6CE05B520 /* Pods_SimpleCast.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60038DFD1FB329D6002A0E61 /* SimpleCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60038E101FB329D6002A0E61 /* Build configuration list for PBXNativeTarget "SimpleCast" */;
+			buildPhases = (
+				469EB864A91B85033321D9E6 /* [CP] Check Pods Manifest.lock */,
+				60038DFA1FB329D6002A0E61 /* Sources */,
+				60038DFB1FB329D6002A0E61 /* Frameworks */,
+				60038DFC1FB329D6002A0E61 /* Resources */,
+				45A67CF09804C4EB603341CD /* [CP] Embed Pods Frameworks */,
+				B4061DFA8982FCE665E1A8FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleCast;
+			productName = SimpleCast;
+			productReference = 60038DFE1FB329D6002A0E61 /* SimpleCast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60038DF61FB329D6002A0E61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Jakša Tomović";
+				TargetAttributes = {
+					60038DFD1FB329D6002A0E61 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 60038DF91FB329D6002A0E61 /* Build configuration list for PBXProject "SimpleCast" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60038DF51FB329D6002A0E61;
+			productRefGroup = 60038DFF1FB329D6002A0E61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60038DFD1FB329D6002A0E61 /* SimpleCast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60038DFC1FB329D6002A0E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60038E0C1FB329D6002A0E61 /* Splash.storyboard in Resources */,
+				60038E091FB329D6002A0E61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45A67CF09804C4EB603341CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpleCast/Pods-SimpleCast-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableAlamofire/CodableAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SMIconLabel/SMIconLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMIconLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleCast/Pods-SimpleCast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		469EB864A91B85033321D9E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleCast-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4061DFA8982FCE665E1A8FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleCast/Pods-SimpleCast-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60038DFA1FB329D6002A0E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60038E041FB329D6002A0E61 /* MainController.swift in Sources */,
+				60038E191FB32AB2002A0E61 /* UIView+Anchors.swift in Sources */,
+				60038E021FB329D6002A0E61 /* AppDelegate.swift in Sources */,
+				607513771FB3311C002A5516 /* Forecast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60038E0A1FB329D6002A0E61 /* Splash.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60038E0B1FB329D6002A0E61 /* Base */,
+			);
+			name = Splash.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60038E0E1FB329D6002A0E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60038E0F1FB329D6002A0E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60038E111FB329D6002A0E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C9C1549E2E09C189D91BB8 /* Pods-SimpleCast.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7EC32T954D;
+				INFOPLIST_FILE = SimpleCast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jaksatomovic.SimpleCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60038E121FB329D6002A0E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76FF93AD8BD99D605DF7CBF8 /* Pods-SimpleCast.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7EC32T954D;
+				INFOPLIST_FILE = SimpleCast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jaksatomovic.SimpleCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60038DF91FB329D6002A0E61 /* Build configuration list for PBXProject "SimpleCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60038E0E1FB329D6002A0E61 /* Debug */,
+				60038E0F1FB329D6002A0E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60038E101FB329D6002A0E61 /* Build configuration list for PBXNativeTarget "SimpleCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60038E111FB329D6002A0E61 /* Debug */,
+				60038E121FB329D6002A0E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60038DF61FB329D6002A0E61 /* Project object */;
+}

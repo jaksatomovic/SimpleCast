@@ -9,3 +9,6 @@ Simple Weather App written with Swift 4 using Codable, CoreLocation and openweat
   - CoreLocation
   - No Storyboard
 
+# ScreenShot
+
+![alt text](https://github.com/jaksatomovic/SimpleCast/blob/master/IMG_0173.PNG)
